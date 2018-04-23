@@ -127,7 +127,6 @@ app.get('/task/:userId/:date', urlencodedParser, (req,res) => {
   db.getTasksOnDate(userId, date, function(results) {
     res.send(results)
   })
-})
 
 app.delete('/task/:taskId', (req, res) => {
   const taskId = req.params.taskId
