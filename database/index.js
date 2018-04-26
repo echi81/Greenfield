@@ -252,6 +252,10 @@ module.exports = {
   getAllQuotes,
   getTasksOnDate,
   updateTaskOnCheck,
+<<<<<<< HEAD
   updateTaskOnUnCheck,
   deleteTask
+=======
+  updateTaskOnUnCheck
+>>>>>>> creates endpoints for checking and unchecking a rendered task
 }
