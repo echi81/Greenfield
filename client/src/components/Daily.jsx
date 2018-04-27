@@ -1,8 +1,7 @@
 import React from 'react';
 import DailyTaskEntry from './DailyTaskEntry.jsx';
 import axios from 'axios';
-import Paper from 'material-ui/Paper'
-
+import Paper from 'material-ui/Paper';
 
 class Daily extends React.Component {
   constructor(props) {
