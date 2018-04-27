@@ -32,7 +32,6 @@ class Daily extends React.Component {
   render() {
     return (
         <div className='daily-container'>
-
         <Paper zDepth={3} style={{textAlign: 'center', backgroundColor: '#ECEFF1'}}>
           <h4 className='daily-header'>Tasks for {(this.props.date).toLocaleString('en-US', {weekday: "long", year: "numeric", month: "long", day: "numeric"})}</h4>
         </Paper>
