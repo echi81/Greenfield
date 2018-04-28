@@ -1,4 +1,4 @@
-**Synopsis**
+###Synopsis
 
 Hump Day is a weekly task manager that allows users to store and view tasks for a given week and day.
 The user can choose give an expected time range for given date and can mark as completed when finished.
@@ -9,12 +9,16 @@ Additional tools include:
     2. A Rubber Ducky that display random quotes
     3. A pomodoro timer
 
-**File Structure**
+###Functionality
+
+
+
+###File Structure
 
 *HumpDay File Structure*
 
-###CLIENT
-###DIST
+**CLIENT**
+**DIST**
   - index.html
   - Bundle.js
   - styles.css
@@ -34,33 +38,33 @@ Additional tools include:
       - Duck.jsx
       - Register.jsx
       - Index.jsx
-###SERVER
+**SERVER**
   - server.js
-###DATABASE
+**DATABASE**
   - Index.js (basic db connection and schemas)
   - Data.json
   - Quotes.js
-###Views
+**Views**
   - Index.ejs
   - Login.ejs
   - Signup.ejs
-###webpack.config.js
-###package.json
-###.gitignore
+**webpack.config.js**
+**package.json**
+**.gitignore**
 
 
-**Installation**
+###Installation
 
 npm install
 
-**Current Issues**
+###Current Issues
 
 - AddTask and Notes Components should have clear fields buttons
 - Checkbox in DailyTaskEntry Component should receive checked state from parent component so it will reflect actual completed state
 - Weekly Component should display days in order
 
 
-**Contributors**
+###Contributors
 - vasyl-n
 - mjraybk07
 - echi81
