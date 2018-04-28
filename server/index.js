@@ -106,7 +106,6 @@ app.post('/task', restrict, jsonParser, (req, res) => {
   res.sendStatus(201);
 })
 
-
 app.put('/taskCheck/:taskId',urlencodedParser, (req,res) => {
   const taskId = req.params.taskId;
   db.updateTaskOnCheck(taskId, function() {
