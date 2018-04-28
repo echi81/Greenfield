@@ -11,42 +11,42 @@ Additional tools include:
 
 **File Structure**
 
-HumpDay File Structure
+*HumpDay File Structure*
 
-CLIENT
-DIST
-  index.html
-  Bundle.js
-  styles.css
-  SRC
-    COMPONENTS
-    App.jsx
-    Login.jsx
-    Chart.jsx
-    Weekly.jsx
-    WeeklyTaskEntry.jsx
-    Register.jsx
-    AddTask.jsx
-    Notes.jsx
-    Daily.jsx
-    DailyTaskEntry.jsx
-    AppHeader.jsx
-    Duck.jsx
-    Register.jsx
-    Index.jsx
-SERVER
-  server.js
-DATABASE
-  Index.js (basic db connection and schemas)
-  Data.json
-  Quotes.js
-Views
-  Index.ejs
-  Login.ejs
-  Signup.ejs
-webpack.config.js
-package.json
-.gitignore
+###CLIENT
+###DIST
+  - index.html
+  - Bundle.js
+  - styles.css
+  - SRC
+    - COMPONENTS
+      - App.jsx
+      - Login.jsx
+      - Chart.jsx
+      - Weekly.jsx
+      - WeeklyTaskEntry.jsx
+      - Register.jsx
+      - AddTask.jsx
+      - Notes.jsx
+      - Daily.jsx
+      - DailyTaskEntry.jsx
+      - AppHeader.jsx
+      - Duck.jsx
+      - Register.jsx
+      - Index.jsx
+###SERVER
+  - server.js
+###DATABASE
+  - Index.js (basic db connection and schemas)
+  - Data.json
+  - Quotes.js
+###Views
+  - Index.ejs
+  - Login.ejs
+  - Signup.ejs
+###webpack.config.js
+###package.json
+###.gitignore
 
 
 **Installation**
