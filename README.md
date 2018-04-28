@@ -18,6 +18,7 @@ Additional tools include:
 *HumpDay File Structure*
 
 **CLIENT**
+
 **DIST**
   - index.html
   - Bundle.js
@@ -38,18 +39,29 @@ Additional tools include:
       - Duck.jsx
       - Register.jsx
       - Index.jsx
+
 **SERVER**
   - server.js
+
+
 **DATABASE**
   - Index.js (basic db connection and schemas)
   - Data.json
   - Quotes.js
+
+
 **Views**
   - Index.ejs
   - Login.ejs
   - Signup.ejs
+
+
 **webpack.config.js**
+
+
 **package.json**
+
+
 **.gitignore**
 
 
